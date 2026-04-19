@@ -1,0 +1,9 @@
+CREATE DATABASE dashboard;
+
+USE dashboard;
+
+CREATE TABLE layouts (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    data LONGTEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
